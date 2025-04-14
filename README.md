@@ -1,33 +1,69 @@
-# 🍽️ Kartavya – A B2B Food Redistribution Platform
+# Kartavya – A B2B Food Redistribution Platform
 
-**Kartavya** is a tech-enabled, not-for-profit platform designed to reduce food waste and fight hunger. It connects restaurants, mess halls, and event venues (with surplus food) to verified NGOs and community kitchens. The platform ensures food is safely redistributed to those in need through intelligent logistics, transparent tracking, and verified users. Developed as a final-year project, Kartavya aligns with the UN Sustainable Development Goals — **SDG #2 (Zero Hunger)**, **SDG #12 (Responsible Consumption and Production)**, and **SDG #13 (Climate Action)**.
+Kartavya is a tech-enabled, not-for-profit platform developed to combat food waste and hunger. It connects food donors—such as restaurants, event venues, and mess halls—with verified NGOs and community kitchens. By facilitating the safe redistribution of surplus food, Kartavya aligns with the United Nations Sustainable Development Goal #2: Zero Hunger.
 
----
+## 🌟 Key Features
 
-## 🚀 Live Demo
+- **Donor-NGO Matching**: Seamlessly connects food donors with nearby NGOs based on real-time availability and demand.
+- **Verified User Network**: Ensures that all participants are vetted to maintain trust and accountability.
+- **Transparent Tracking**: Offers real-time tracking of food donations from pickup to delivery.
+- **Smart Logistics**: Optimizes routes and schedules to ensure timely and safe food deliveries.
+- **Impact Analytics**: Provides dashboards to monitor key metrics such as meals delivered and food saved.
 
-🔗 [https://kartavya-oyh5o4920-vaibhav586s-projects.vercel.app/](https://kartavya-oyh5o4920-vaibhav586s-projects.vercel.app/)
+## 🛠️ Tech Stack
 
----
+- **Frontend**: React with TypeScript, styled using Tailwind CSS.
+- **Backend**: Supabase for database management and authentication.
+- **Build Tool**: Vite for fast and efficient development.
+- **Hosting**: Deployed on Vercel for scalable and reliable performance.
 
-## 💡 Features
+## 🚀 Getting Started
 
-- 🔁 Real-time food redistribution between providers and NGOs
-- 📍 Smart routing & pickup coordination
-- 🔒 Verified users and hygiene-compliant operations
-- 📊 Impact analytics and transparent tracking
-- 📝 Clean dashboard for both NGOs and Providers
+To set up the project locally:
 
----
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Vaibhav586/Kartavya.git
+   cd Kartavya
+   ```
 
-## 🧱 Tech Stack
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-- **Frontend:** Flutter (Web)
-- **Backend:** Python (FastAPI)
-- **Database:** SQLite
-- **Hosting:** Vercel (Frontend) & Render (Backend)
+3. **Configure environment variables**:
+   Create a `.env` file in the root directory and add your Supabase credentials:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
 
----
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-## 📂 Folder Structure
+## 📦 Project Structure
 
+```
+Kartavya/
+├── src/                   # Source code
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Page components
+│   ├── services/          # API services and utilities
+│   └── ...                # Other directories
+├── supabase/              # Supabase migrations and configurations
+├── public/                # Static assets
+├── .env                   # Environment variables
+├── package.json           # Project metadata and scripts
+└── README.md              # Project documentation
+```
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+## 📬 Contact
+
+For questions or feedback, please contact [Vaibhav586](https://github.com/Vaibhav586).
