@@ -151,7 +151,10 @@ function LandingPage() {
                 </ul>
               </div>
             </div>
-            <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold inline-flex items-center">
+            <button
+              className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold inline-flex items-center"
+              onClick={() => window.location.href = "https://5cf295ba-a75d-4640-8dee-50002888839d-00-2coxe7mb9v2uz.picard.replit.dev/ngo/cart"}
+              >
               Register as Provider <ArrowRight className="ml-2" size={20} />
             </button>
           </div>
